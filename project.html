@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>プロジェクト</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="edu-body">
+  <div class="footer-container">
+         <a href="index.html" class="text-white footer-link">ホーム</a>
+          <a href="profile.html" class="text-white footer-link">プロフィール</a>
+          <a href="education.html" class="text-white footer-link">学歴・職歴</a>
+          <a href="skill.html" class="text-white footer-link">スキル</a>
+          <a href="project.html" class="link-selected footer-link">プロジェクト</a>
+    </div>
+
+    <div class="container">
+      <div class="proj-row">
+        <div class="proj-col">
+          <button type="button" class="proj-div" data-toggle="modal" data-target="#proj1">
+          情報管理システム
+          </button>
+        </div>
+         <div class="proj-col">
+           <button type="button" class="proj-div" data-toggle="modal" data-target="#proj2">
+          情報検索システム
+          </button>
+        </div>
+         <div class="proj-col">
+          <button type="button" class="proj-div" data-toggle="modal" data-target="#proj3">
+          受付システム
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="proj-row">
+        <div class="proj-col">
+          <button type="button" class="proj-div" data-toggle="modal" data-target="#proj4">
+          ブラウザゲーム
+          </button>
+        </div>
+         <div class="proj-col">
+          <button type="button" class="proj-div" data-toggle="modal" data-target="#proj5">
+          年金デモシステム
+          </button>
+        </div>
+         <div class="proj-col">
+          <button type="button" class="proj-div" data-toggle="modal" data-target="#proj6">
+          Todoリスト管理システム
+          </button>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="proj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">情報管理システム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>HTML, NodeJs</td>
+          </tr>
+           <tr>
+            <td><br>【DB】</td>
+            <td><br>MySQL</td>
+          </tr>
+           <tr>
+            <td><br>【開発ツール】</td>
+            <td><br>ノードレッドダッシュボード</td>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>データをDBに登録・更新・検索することができます。<br>
+        登録したデータをCSVファイルとしてダウンロードもできます。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="proj2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">情報検索システム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>HTML, NodeJs, Network</td>
+          </tr>
+           <tr>
+            <td><br>【DB】</td>
+            <td><br>PostgreSQL</td>
+          </tr>
+           <tr>
+            <td><br>【開発ツール】</td>
+            <td><br>ノードレッドダッシュボード</td>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>ロボットから探した名前・IDなどを 開発 PC の Node-RED から CSV・データベースに探して、ロボットに返却するサービスでございます。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="proj3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">受付システム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>HTML, JavaScript, CSS, jQuery</td>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>受付するお客様の情報を登録して予約し、登録した内容を検索して返却するデモ画面でございます。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- Modal -->
+<div class="modal fade" id="proj4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">ブラウザゲーム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>HTML, JavaScript</td>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>小学生みたいな子供がゲームしながら年金の知識を勉強できるウェブブラウザゲームでございます。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="proj5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">年金デモシステム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>HTML, JavaScript</td>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>年金のため様々なデモ画面作成することです。<br>
+            例：<br>
+            ・相談者向けのシステム<br>
+            ・支援事業の業務をシステム化する<br>
+            ・相談者からの電話発信・着信を管理する</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="proj6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-m" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close title-font" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title title-font model-title-center" id="myModalLabel">Todoリスト管理システム</h4>
+      </div>
+      <div class="modal-body modal-body-center message-font">
+        <table>
+          <tr>
+            <td>【言語】</td>
+            <td>Java,HTML,JavaScript, AngularJS</td>
+          </tr>
+          <tr>
+            <td><br>【DB】</td>
+            <td><br>MySQL</td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td><br>【役割】</td>
+            <td><br>開発</td>
+          </tr>
+        </table>
+        <br>
+        【業務内容】<br>
+        <p>Todoリストを簡単に管理できるシステムです。<br>
+        各タスクの進捗状況を表示し、期限が近い タスクがある場合はユーザーに通知する。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-close" data-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
